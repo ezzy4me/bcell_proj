@@ -1,4 +1,4 @@
-# bcell_proj
+# B Cell Project
 
 ## Overview
 This project aims to develop an AI model to predict B-cell epitopes (linear peptides) in antigen proteins. B-cell epitopes are specific sequences within antigens that can activate B-cells, leading to the production of antibodies to neutralize pathogens. Accurate prediction of these epitopes can accelerate vaccine and therapeutic development. In this repo, we exploited the ESM-1b model [[Paper](https://www.pnas.org/doi/10.1073/pnas.2016239118#:~:text=https%3A//doi.org/10.1073/pnas.2016239118)]. 
@@ -64,7 +64,7 @@ Additionally, you can visualize attention maps for protein sequence data using a
 python visualization.py --num_samples 10 --max_length 64 --save_path /home/juhwan/sangmin/bcell_active/attention_maps
 ```
 #### Example of attention map visualization
-In the image below, the x-axis represents l_antigen, epitope (indicated in red), and r_antigen with the origin as the reference point.
+In the image below, starting from the origin along the x-axis, it represents the l_antigen, epitope (marked in red), and r_antigen.
 
 ![Screen Shot 2024-06-03 at 4 43 08 AM](https://github.com/ezzy4me/bcell_proj/assets/87761061/caaa49c4-2643-436d-8f17-fbe452206c23)
 
