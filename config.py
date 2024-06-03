@@ -9,7 +9,7 @@ CFG = {
     'ANTIGEN_MAX_LEN': 256,
     'EPITOPE_MAX_LEN': 32,
     'EPOCHS': 4,
-    'LEARNING_RATE': 5e-5,
+    'LEARNING_RATE': 1e-6,
     'BATCH_SIZE': 192,
     'THRESHOLD': 0.5,
     'SEED': 41
