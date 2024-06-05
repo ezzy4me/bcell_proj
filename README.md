@@ -54,8 +54,8 @@ To run inference using the trained model:
 python main.py --mode inference
 ```
 ### Notice
-- If you want to tune the model's hyperparameters, modify the config.py[https://github.com/ezzy4me/bcell_proj/blob/main/config.py] file.
-- Ensure the paths for data and model loading are correctly specified.
+- If you want to tune the model's hyperparameters, modify the [config.py](https://github.com/ezzy4me/bcell_proj/blob/main/config.py) file.
+- __Ensure the paths for data and model loading are correctly specified.__
 - For further customization or issues, please refer to the script comments and modify as necessary!
 
 ## Visualization
