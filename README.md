@@ -19,7 +19,7 @@ cd bcell_proj
 pip install -r requirements.txt
 ```
 ### Dataset
-Place your dataset in the protein_data directory. The directory structure should be as follows: [link](https://dacon.io/competitions/official/235932/data)
+Place your dataset in the protein_data directory. The directory structure should be as follows: [[Dataset Download](https://dacon.io/competitions/official/235932/data)]
 ```
 protein_data/
     ├── train.csv
@@ -61,7 +61,7 @@ python main.py --mode inference
 ## Visualization
 Additionally, you can visualize attention maps for protein sequence data using a finetuned language model, as shown in the image below and more. The script processes the input data, generates attention maps for specified samples, and saves the visualizations to the designated path.
 ```
-python visualization.py --num_samples 10 --max_length 64 --save_path /home/juhwan/sangmin/bcell_active/attention_maps
+python visualization.py --num_samples 10 --max_length 64
 ```
 #### Example of attention map visualization
 In the image below, starting from the origin along the x-axis, it represents the l_antigen, epitope (marked in red), and r_antigen.
